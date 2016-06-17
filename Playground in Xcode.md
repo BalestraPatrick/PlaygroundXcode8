@@ -34,8 +34,6 @@ q.resume()
 
 We first import the new `PlaygroundSupport` framework at the top. We then set the `PlaygroundPage.current.needsIndefiniteExecution` property to true so that the playground will continue the execution of the Swift file even after reaching the last line. In this way, we are able to debug and see the response of our request.
 
-![](result.png)
-
 You can also tell your Playground to stop waiting for something to happen. You could for example add this line in your completion handler to stop the execution of the page.
 
 ```swift
